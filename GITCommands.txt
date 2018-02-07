@@ -1,0 +1,53 @@
+AARYAN-JATIN@AARYAN-JATIN-PC MINGW32 /d/sivaphp821_git_project
+$ git init
+Initialized empty Git repository in D:/sivaphp821_git_project/.git/
+======================================= 
+AARYAN-JATIN@AARYAN-JATIN-PC MINGW32 /d/sivaphp821_git_project (master)
+$ git remote add origin "https://github.com/sivaphp821/git-github.git"
+======================================= 
+AARYAN-JATIN@AARYAN-JATIN-PC MINGW32 /d/sivaphp821_git_project (master)
+$ git pull origin master
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/sivaphp821/git-github
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+======================================= 
+AARYAN-JATIN@AARYAN-JATIN-PC MINGW32 /d/sivaphp821_git_project (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        edu1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AARYAN-JATIN@AARYAN-JATIN-PC MINGW32 /d/sivaphp821_git_project (master)
+$ git add edu1.txt
+
+AARYAN-JATIN@AARYAN-JATIN-PC MINGW32 /d/sivaphp821_git_project (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   edu1.txt
+======================================= 
+AARYAN-JATIN@AARYAN-JATIN-PC MINGW32 /d/sivaphp821_git_project (master)
+$ git config --global user.email "siva.php821@gmail.com"
+
+AARYAN-JATIN@AARYAN-JATIN-PC MINGW32 /d/sivaphp821_git_project (master)
+$ git config --global user.name "sivaphp821"
+
+======================================= 
+AARYAN-JATIN@AARYAN-JATIN-PC MINGW32 /d/sivaphp821_git_project (master)
+$ git commit -m "edu1 file commited"
+[master 3380680] edu1 file commited
+ 1 file changed, 23 insertions(+)
+ create mode 100644 edu1.txt
+======================================= 
+AARYAN-JATIN@AARYAN-JATIN-PC MINGW32 /d/sivaphp821_git_project (master)
+$
+
